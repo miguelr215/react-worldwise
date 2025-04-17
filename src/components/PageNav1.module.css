@@ -1,0 +1,19 @@
+/* 
+SHOULD BE SCOPED TO PageNav.jsx ELEMENTS ONLY 
+CSS MODULES WILL ADD A UNIQUE STRING ID TO THE END OF THE CLASS TO MAKE IT SCOPED
+AVOID USING ELEMENT ONLY CSS SELECTORS TO MAINTAIN SCOPE (IE. ul {})
+*/
+.nav ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.nav a {
+	text-decoration: none;
+}
+
+/* USE CSS GLOBAL FUNCTION TO MAKE THE CLASS A GLOBAL CLASS THAT WILL NOT HAVE A UNIQUE ID ADDED */
+.nav :global(.active) {
+	background-color: green;
+}
