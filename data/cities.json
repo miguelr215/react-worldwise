@@ -4,6 +4,7 @@
 			"cityName": "Lisbon",
 			"country": "Portugal",
 			"emoji": "🇵🇹",
+			"flagPath": "https://em-content.zobj.net/source/toss-face/381/flag-portugal_1f1f5-1f1f9.png",
 			"date": "2027-10-31T15:59:59.138Z",
 			"notes": "My favorite city so far!",
 			"position": {
@@ -16,6 +17,7 @@
 			"cityName": "Madrid",
 			"country": "Spain",
 			"emoji": "🇪🇸",
+			"flagPath": "https://em-content.zobj.net/source/toss-face/381/flag-spain_1f1ea-1f1f8.png",
 			"date": "2027-07-15T08:22:53.976Z",
 			"notes": "",
 			"position": {
@@ -28,6 +30,7 @@
 			"cityName": "Berlin",
 			"country": "Germany",
 			"emoji": "🇩🇪",
+			"flagPath": "https://em-content.zobj.net/source/toss-face/381/flag-germany_1f1e9-1f1ea.png",
 			"date": "2027-02-12T09:24:11.863Z",
 			"notes": "Amazing 😃",
 			"position": {
@@ -35,6 +38,19 @@
 				"lng": 13.376933665713324
 			},
 			"id": 98443197
+		},
+		{
+			"cityName": "Barcelona",
+			"country": "Spain",
+			"emoji": "🇪🇸",
+			"flagPath": "https://em-content.zobj.net/source/toss-face/381/flag-spain_1f1ea-1f1f8.png",
+			"date": "2027-07-15T08:22:53.976Z",
+			"notes": "",
+			"position": {
+				"lat": 40.46635901755316,
+				"lng": -3.7133789062500004
+			},
+			"id": 871106751
 		}
 	]
 }
