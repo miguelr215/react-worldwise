@@ -15,7 +15,7 @@ function CityItem({ city }) {
 
 	return (
 		<li>
-			<Link className={styles.cityItem} to={`cities/${id}`}>
+			<Link className={styles.cityItem} to={`${id}`}>
 				<span className={styles.emoji}>
 					<img src={flagPath} alt={`Flag of ${emoji}`} />
 				</span>
